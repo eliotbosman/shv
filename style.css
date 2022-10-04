@@ -218,7 +218,7 @@ video {
 
     li {
         font-size: 50pt;
-        margin-right: 5vw;
+        margin-right: 4vw;
     }
 
     #m-fillerbg {
@@ -246,7 +246,7 @@ video {
         position: absolute;
         text-align: center;
         width: 95.5vw;
-        height: 90vh;
+        height: 80vh;
         transition: 1.2s ease-in;
         background: linear-gradient(360deg, rgba(199,220,218,1) 0%, rgba(152,211,184,1) 20%, rgba(82,198,133,1) 55%, rgba(41,190,103,1) 0%); 
         border-radius: 5vw;
@@ -257,7 +257,7 @@ video {
         text-align: center;
         list-style: none;
         font-size: 25pt;
-        margin-top: 10vh;
+        margin-top: 5vh;
 
         }
 }
