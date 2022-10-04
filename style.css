@@ -1,0 +1,417 @@
+/* @ UNIVERSAL CSS ACROSS ALL DEVICES */ /* @ UNIVERSAL CSS ACROSS ALL DEVICES */
+/* @ UNIVERSAL CSS ACROSS ALL DEVICES */ /* @ UNIVERSAL CSS ACROSS ALL DEVICES */
+/* @ UNIVERSAL CSS ACROSS ALL DEVICES */ /* @ UNIVERSAL CSS ACROSS ALL DEVICES */
+/* @ UNIVERSAL CSS ACROSS ALL DEVICES */ /* @ UNIVERSAL CSS ACROSS ALL DEVICES */
+/* @ UNIVERSAL CSS ACROSS ALL DEVICES */ /* @ UNIVERSAL CSS ACROSS ALL DEVICES */
+
+/* @ UNIVERSAL CSS / ELEMENTS A-Z */
+
+#img {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    transition: 1.2s all;
+    text-decoration: underline 7.5px solid;
+}
+
+body {
+    padding: 5vw 5vh;  
+    font-family: 'AUTHENTIC Sans';
+}
+
+h1, h2, p {
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 55pt;
+}
+
+h2 {
+    font-size: 27.5pt;
+}
+
+li {
+    margin-left: -2vw;
+    list-style: none;
+    font-size: 75pt;
+}
+
+p {
+    text-align: justify left;
+    font-size: 45pt;
+    margin-right: 25vw;
+}
+
+ul {
+    margin-top: 25vh;
+}
+
+video {
+    filter: brightness(60%);
+}
+
+/* @ UNIVERSAL CSS / DIVS A-Z */
+
+.content {
+    top: 0;
+    position: fixed;
+    color: white;
+    width: 100%;
+}
+
+.menu {
+    border: none;
+    font-family: 'AUTHENTIC Sans';
+    font-size: 27.5pt;
+    width: 11vw;
+    height: 10vh;
+    background: none;
+    color: white;
+}
+
+.menu:hover, #contact:hover {
+   text-decoration: underline 7.5px;
+}
+
+.nav {
+    grid-template-columns: repeat(2, 0.5fr);
+    grid-auto-rows: 10vh;
+    display: grid;
+}
+
+.overlay {
+    display: none;
+    font-family: 'AUTHENTIC Sans';
+    position: absolute;
+    font-size: 250pt;
+    top: 10vh;
+    left: 0vh;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    transition: 1.2s ease-in;
+    background: rgb(199,220,218);
+    background: linear-gradient(90deg, rgba(199,220,218,1) 0%, rgba(152,211,184,1) 20%, rgba(82,198,133,1) 25%, rgba(41,190,103,1) 100%);
+    animation: gradientbg 8s linear infinite;
+}
+
+#video {
+    position: fixed;
+    right: 0;
+    top: -50vh;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+
+/* */
+
+/* VIEWPORT ADJUSTMENTS FOR DESKTOP DEVICES -+1200PX */ /* VIEWPORT ADJUSTMENTS FOR MOBILE DEVICES -+1200PX */
+/* VIEWPORT ADJUSTMENTS FOR DESKTOP DEVICES -+1200PX */ /* VIEWPORT ADJUSTMENTS FOR MOBILE DEVICES -+1200PX */
+/* VIEWPORT ADJUSTMENTS FOR DESKTOP DEVICES -+1200PX */ /* VIEWPORT ADJUSTMENTS FOR MOBILE DEVICES -+1200PX */
+/* VIEWPORT ADJUSTMENTS FOR DESKTOP DEVICES -+1200PX */ /* VIEWPORT ADJUSTMENTS FOR MOBILE DEVICES -+1200PX */
+/* VIEWPORT ADJUSTMENTS FOR DESKTOP DEVICES -+1200PX */ /* VIEWPORT ADJUSTMENTS FOR MOBILE DEVICES -+1200PX */
+/* VIEWPORT ADJUSTMENTS FOR DESKTOP DEVICES -+1200PX */ /* VIEWPORT ADJUSTMENTS FOR MOBILE DEVICES -+1200PX */
+
+
+@media only screen and (min-width: 1200px) {
+
+    /* @ GENERAL -+ 1200PX / A-Z */
+
+    li:hover {
+        text-decoration: underline 9px;
+    }
+
+    /* @ DIVS -+ 1200PX / A-Z */
+
+    #video {
+        position: fixed;
+        right: 0;
+        top: -50vh;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+    }
+    .content {
+        position: fixed;
+        bottom: 10vh;
+        color: white;
+        width: 75%;
+    }
+
+    #w-about, #w-title {
+        display: grid;
+        hyphens: auto;
+        font-kerning: auto;
+    }
+    
+    #m-about, #m-title, #m-fillerbg, #m-menu {
+        display: none;
+    }
+
+}
+
+/* */
+
+/* VIEWPORT ADJUSTMENTS FOR MOBILE DEVICES -+600PX */ /* VIEWPORT ADJUSTMENTS FOR MOBILE DEVICES -+600PX */
+/* VIEWPORT ADJUSTMENTS FOR MOBILE DEVICES -+600PX */ /* VIEWPORT ADJUSTMENTS FOR MOBILE DEVICES -+600PX */
+/* VIEWPORT ADJUSTMENTS FOR MOBILE DEVICES -+600PX */ /* VIEWPORT ADJUSTMENTS FOR MOBILE DEVICES -+600PX */
+/* VIEWPORT ADJUSTMENTS FOR MOBILE DEVICES -+600PX */ /* VIEWPORT ADJUSTMENTS FOR MOBILE DEVICES -+600PX */
+/* VIEWPORT ADJUSTMENTS FOR MOBILE DEVICES -+600PX */ /* VIEWPORT ADJUSTMENTS FOR MOBILE DEVICES -+600PX */
+
+@media only screen and (max-width: 600px) {
+
+    /* @ GENERAL -+ 600PX / A-Z */
+
+    body {
+        padding: 2vw 2vh;  
+        font-family: 'AUTHENTIC Sans';
+    }
+    
+    h2 {
+        font-size: 25pt;
+    }
+    
+    h1, h2, p {
+        font-weight: normal;
+    }
+
+    /* @ DIVS -+ 600PX / A-Z */
+
+    .content {
+        position: fixed;
+        bottom: 10vh;
+        color: white;
+        width: 100%;
+    }
+
+    #w-about, #w-title, .menu {
+        display: none;
+    }
+    
+    #m-about, #m-title {
+        display: grid;
+    }
+
+    #m-about {
+        font-size: 25pt;
+        hyphens: auto;
+        font-kerning: auto;
+        text-align: justify-left;
+    }
+
+    .nav {
+        grid-template-columns: 1fr;
+        display: grid;
+        margin-right: 10vw;
+    }
+
+    /* @ MENU -+ 600PX / A-Z */
+
+    li {
+        font-size: 50pt;
+        margin-right: 5vw;
+    }
+
+    #m-fillerbg {
+        color: white;
+    }
+
+    #m-menu:hover {
+        text-decoration: underline 9px;
+    }
+
+    #m-menu {
+        font-size: 50pt;
+        border: none;
+        font-family: 'AUTHENTIC Sans';
+        background: none;
+        color: white;
+    }
+
+    .overlay {
+
+        /* Layout */ 
+        margin: 2%;
+
+        display: none;
+        position: absolute;
+        text-align: center;
+        width: 95.5vw;
+        height: 97.5vh;
+        transition: 1.2s ease-in;
+        background: linear-gradient(360deg, rgba(199,220,218,1) 0%, rgba(152,211,184,1) 20%, rgba(82,198,133,1) 55%, rgba(41,190,103,1) 0%); 
+        border-radius: 5vw;
+    }
+    
+    ul {
+
+        text-align: center;
+        list-style: none;
+        font-size: 25pt;
+        margin-top: 10vh;
+
+        }
+}
+
+/* VIEWPORT ADJUSTMENTS FOR TABLET PORTRAIT DEVICES -+900PX */ /* VIEWPORT ADJUSTMENTS FOR TABLET PORTRAIT DEVICES -+900PX */
+/* VIEWPORT ADJUSTMENTS FOR TABLET PORTRAIT DEVICES -+900PX */ /* VIEWPORT ADJUSTMENTS FOR TABLET PORTRAIT DEVICES -+900PX */
+/* VIEWPORT ADJUSTMENTS FOR TABLET PORTRAIT DEVICES -+900PX */ /* VIEWPORT ADJUSTMENTS FOR TABLET PORTRAIT DEVICES -+900PX */
+/* VIEWPORT ADJUSTMENTS FOR TABLET PORTRAIT DEVICES -+900PX */ /* VIEWPORT ADJUSTMENTS FOR TABLET PORTRAIT DEVICES -+900PX */
+/* VIEWPORT ADJUSTMENTS FOR TABLET PORTRAIT DEVICES -+900PX */ /* VIEWPORT ADJUSTMENTS FOR TABLET PORTRAIT DEVICES -+900PX */
+/* VIEWPORT ADJUSTMENTS FOR TABLET PORTRAIT DEVICES -+900PX */ /* VIEWPORT ADJUSTMENTS FOR TABLET PORTRAIT DEVICES -+900PX */
+
+@media only screen and (min-width: 601px) and (max-width: 1200px) {
+
+    /* @ GENERAL -+ 900PX / A-Z */
+
+    body {
+        padding: 2vw 2vh;  
+        font-family: 'AUTHENTIC Sans';
+    }
+    
+    h2 {
+        font-size: 25pt;
+    }
+    
+    h1, h2, p {
+        font-weight: normal;
+    }
+
+    /* @ DIVS -+ 900PX / A-Z */
+
+    .content {
+        position: fixed;
+        bottom: 10vh;
+        color: white;
+        width: 100%;
+    }
+
+    #w-about, #w-title, .menu {
+        display: none;
+    }
+    
+    #m-about, #m-title {
+        display: grid;
+    }
+
+    #m-about {
+        font-size: 45pt;
+        hyphens: auto;
+        font-kerning: auto;
+        text-align: justify-left;
+    }
+
+    .nav {
+        grid-template-columns: 1fr;
+        display: grid;
+        margin-right: 10vw;
+    }
+
+    /* @ MENU -+ 900PX / A-Z */
+
+    li {
+        font-size: 50pt;
+        margin-right: 5vw;
+    }
+
+    #m-fillerbg {
+        color: white;
+    }
+
+    #m-menu:hover {
+        text-decoration: underline 9px;
+    }
+
+    #m-menu {
+        font-size: 50pt;
+        border: none;
+        font-family: 'AUTHENTIC Sans';
+        background: none;
+        color: white;
+    }
+
+    .overlay {
+
+        /* Layout */ 
+        margin: 2%;
+
+        display: none;
+        position: absolute;
+        text-align: center;
+        width: 95.5vw;
+        height: 97.5vh;
+        transition: 1.2s ease-in;
+        background: linear-gradient(360deg, rgba(199,220,218,1) 0%, rgba(152,211,184,1) 20%, rgba(82,198,133,1) 55%, rgba(41,190,103,1) 0%); 
+        border-radius: 5vw;
+    }
+    
+    ul {
+
+        text-align: center;
+        list-style: none;
+        font-size: 25pt;
+        margin-top: 10vh;
+
+        }
+}
+
+
+/* IMPORTS AND @s NECESSARY FOR STYLE LIBRARY */ /* IMPORTS AND @s NECESSARY FOR STYLE LIBRARY */
+
+/* @ FONT FACE LIBRARY */
+
+@font-face {
+    font-family: 'AUTHENTIC Sans';
+    src: url('/fonts/AUTHENTICSans-60.woff2') format('woff2'),
+        url('/fonts/AUTHENTICSans-60.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* @ KEYFRAMES DEFINED ANIMATIONS IN CSS */
+
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fade-out {
+
+    0% { opacity: 1;
+
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes gradientbg {
+    
+    0% {
+        background: linear-gradient(90deg, rgba(199,220,218,1) 0%, rgba(152,211,184,1) 20%, rgba(82,198,133,1) 25%, rgba(41,190,103,1) 75%); 
+        }
+    25% {
+        background: linear-gradient(180deg, rgba(199,220,218,1) 0%, rgba(152,211,184,1) 45%, rgba(82,198,133,1) 25%, rgba(41,190,103,1) 50%); 
+    }
+    50% {
+        background: linear-gradient(270deg, rgba(199,220,218,1) 0%, rgba(152,211,184,1) 20%, rgba(82,198,133,1) 75%, rgba(41,190,103,1) 25%); 
+    }
+    75% {
+        background: linear-gradient(360deg, rgba(199,220,218,1) 0%, rgba(152,211,184,1) 20%, rgba(82,198,133,1) 55%, rgba(41,190,103,1) 0%); 
+    }
+}
